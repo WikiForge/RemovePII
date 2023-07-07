@@ -2,7 +2,7 @@
 	"name": "RemovePII",
 	"version": "3.0.0",
 	"author": "Universal Omega",
-	"url": "https://github.com/miraheze/RemovePII",
+	"url": "https://github.com/WikiForge/RemovePII",
 	"descriptionmsg": "removepii-desc",
 	"namemsg": "removepii-extensionname",
 	"license-name": "GPL-3.0-or-later",
@@ -19,10 +19,10 @@
 		"RemovePIIAliases": "RemovePIIAliases.php"
 	},
 	"AutoloadNamespaces": {
-		"Miraheze\\RemovePII\\": "includes/"
+		"WikiForge\\RemovePII\\": "includes/"
 	},
 	"JobClasses": {
-		"RemovePIIJob": "Miraheze\\RemovePII\\RemovePIIJob"
+		"RemovePIIJob": "WikiForge\\RemovePII\\RemovePIIJob"
 	},
 	"LogActionsHandlers": {
 		"removepii/*": "LogFormatter"
@@ -45,13 +45,13 @@
 	],
 	"SpecialPages": {
 		"GenerateRandomHash": {
-			"class": "Miraheze\\RemovePII\\SpecialGenerateRandomHash",
+			"class": "WikiForge\\RemovePII\\SpecialGenerateRandomHash",
 			"services": [
 				"ConfigFactory"
 			]
 		},
 		"RemovePII": {
-			"class": "Miraheze\\RemovePII\\SpecialRemovePII",
+			"class": "WikiForge\\RemovePII\\SpecialRemovePII",
 			"services": [
 				"CentralAuth.CentralAuthDatabaseManager",
 				"CentralAuth.GlobalRenameUserValidator",

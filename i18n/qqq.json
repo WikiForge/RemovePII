@@ -4,7 +4,7 @@
 			"Universal Omega"
 		]
 	},
-	"removepii-desc": "{{desc|name=RemovePII|url=https://github.com/miraheze/RemovePII}}",
+	"removepii-desc": "{{desc|name=RemovePII|url=https://github.com/WikiForge/RemovePII}}",
 	"removepii-extensionname": "{{name}}",
 	"generaterandomhash": "{{doc-special}}",
 	"removepii": "{{doc-special}}",

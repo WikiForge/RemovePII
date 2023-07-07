@@ -1,5 +1,5 @@
 {
-	"name": "miraheze/remove-pii",
+	"name": "wikiforge/remove-pii",
 	"type": "mediawiki-extension",
 	"description": "Creates the special pages, Special:GenerateRandomHash and Special:RemovePII to handle removing of personal identifiable information.",
 	"homepage": "https://www.mediawiki.org/wiki/Extension:RemovePII",
@@ -10,7 +10,7 @@
 		}
 	],
 	"support": {
-		"issues": "https://phabricator.miraheze.org/tag/removepii/",
+		"issues": "https://support.wikiforge.net/tag/removepii/",
 		"wiki": "https://www.mediawiki.org/wiki/Extension:RemovePII"
 	},
 	"require": {

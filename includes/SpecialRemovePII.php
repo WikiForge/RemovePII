@@ -1,6 +1,6 @@
 <?php
 
-namespace Miraheze\RemovePII;
+namespace WikiForge\RemovePII;
 
 use Config;
 use ConfigFactory;

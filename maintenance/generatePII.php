@@ -1,6 +1,6 @@
 <?php
 
-namespace Miraheze\RemovePII\Maintenance;
+namespace WikiForge\RemovePII\Maintenance;
 
 $IP = getenv( 'MW_INSTALL_PATH' );
 if ( $IP === false ) {
